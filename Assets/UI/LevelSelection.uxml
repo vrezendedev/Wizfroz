@@ -1,0 +1,26 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Label.uss?fileID=7433441132597879392&amp;guid=efe9ed9ee6b92fc49b82991db56d1111&amp;type=3#Label" />
+    <Style src="project://database/Assets/UI/Buttons.uss?fileID=7433441132597879392&amp;guid=3f4d1a524efe1134ba178347166a91a8&amp;type=3#Buttons" />
+    <ui:VisualElement style="background-image: url(&apos;project://database/Assets/Sprites/Misc/Background.png?fileID=2800000&amp;guid=c2b8f16c3c94aa54f9e8876212cdf7ee&amp;type=3#Background&apos;); width: 100%; height: 100%;">
+        <ui:GroupBox style="width: 100%; height: auto; margin-left: 10px; margin-right: 10px; margin-top: 1.5%; margin-bottom: 10px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+            <ui:VisualElement style="width: 100%; height: 100%; align-items: center; justify-content: center; -unity-text-align: upper-left;">
+                <ui:Label text="Select a level" display-tooltip-when-elided="true" name="SelectTitle" class="Labels" style="font-size: 128px; width: 100%; height: 50%; -unity-text-align: middle-center; -unity-font-style: normal; margin-bottom: 0; margin-top: 0;" />
+                <ui:Label text="to play!" display-tooltip-when-elided="true" name="SelectMessage" class="Labels" style="justify-content: center; margin-bottom: 0; margin-top: 0; font-size: 64px; width: 100%; height: auto;" />
+            </ui:VisualElement>
+        </ui:GroupBox>
+        <ui:GroupBox style="width: 100%; height: 70%; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; align-items: center; margin-top: 0;">
+            <ui:VisualElement name="LevelContainer" style="flex-direction: row; flex-wrap: wrap;" />
+            <ui:VisualElement style="width: 100%; height: 30%; justify-content: flex-start; align-items: center;">
+                <ui:VisualElement style="flex-direction: row; width: 100%; height: 96px; justify-content: center; align-items: center;">
+                    <ui:VisualElement name="Star1" style="background-image: url(&apos;project://database/Assets/Sprites/Misc/Star.png?fileID=2800000&amp;guid=2de474cbad453f443b528103aa2fadb3&amp;type=3#Star&apos;); width: 96px; height: 96px; display: flex; visibility: hidden;" />
+                    <ui:VisualElement name="Star2" style="background-image: url(&apos;project://database/Assets/Sprites/Misc/Star.png?fileID=2800000&amp;guid=2de474cbad453f443b528103aa2fadb3&amp;type=3#Star&apos;); width: 96px; height: 96px; display: flex; visibility: hidden;" />
+                    <ui:VisualElement name="Star3" style="background-image: url(&apos;project://database/Assets/Sprites/Misc/Star.png?fileID=2800000&amp;guid=2de474cbad453f443b528103aa2fadb3&amp;type=3#Star&apos;); width: 96px; height: 96px; display: flex; visibility: hidden;" />
+                </ui:VisualElement>
+                <ui:Label display-tooltip-when-elided="true" name="LevelInfo" text="Click the Level button to play it or pass the mouse over &lt;br&gt; the button to get the current progress!" class="Labels" style="justify-content: flex-start; margin-bottom: 0; margin-top: 0; font-size: 26px; width: auto; height: auto; color: rgb(255, 255, 255); padding-bottom: 0; flex-wrap: wrap; overflow: visible;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="height: 10%;">
+                <ui:Button text="Back" display-tooltip-when-elided="true" name="Back" class="buttons" style="margin-top: 50px; margin-bottom: 30px; width: 140px; height: 85px;" />
+            </ui:VisualElement>
+        </ui:GroupBox>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Label.uss?fileID=7433441132597879392&amp;guid=efe9ed9ee6b92fc49b82991db56d1111&amp;type=3#Label" />
+    <Style src="project://database/Assets/UI/Buttons.uss?fileID=7433441132597879392&amp;guid=3f4d1a524efe1134ba178347166a91a8&amp;type=3#Buttons" />
+    <ui:VisualElement style="background-image: url(&apos;project://database/Assets/Sprites/Misc/Background.png?fileID=2800000&amp;guid=c2b8f16c3c94aa54f9e8876212cdf7ee&amp;type=3#Background&apos;); width: 100%; height: 100%; flex-wrap: nowrap; flex-direction: column; align-items: center; justify-content: flex-start; overflow: visible;">
+        <ui:GroupBox style="width: 100%; height: 20%; margin-left: 10px; margin-right: 10px; margin-top: 1.5%; margin-bottom: 10px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+            <ui:VisualElement style="width: 100%; height: 100%; align-items: center; justify-content: center; -unity-text-align: upper-left;">
+                <ui:Label text="WizFroz:  " display-tooltip-when-elided="true" name="MainTitle" class="Labels" style="font-size: 128px; width: 100%; height: 50%; -unity-text-align: middle-center; -unity-font-style: normal; margin-bottom: 0; margin-top: 0;" />
+                <ui:Label text="Wizard frog through space" display-tooltip-when-elided="true" name="Subtitle" class="Labels" style="justify-content: center; margin-bottom: 0; margin-top: 0; font-size: 64px; width: 100%; height: auto;" />
+            </ui:VisualElement>
+        </ui:GroupBox>
+        <ui:GroupBox style="width: 100%; height: 50%; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; align-items: center; margin-top: 2px; justify-content: center;">
+            <ui:Button text="Play" display-tooltip-when-elided="true" name="LevelSelect" class="buttons" style="margin-top: 30px; margin-bottom: 30px; width: 265px;" />
+            <ui:Button text="Options" display-tooltip-when-elided="true" name="Options" class="buttons" style="margin-top: 30px; margin-bottom: 30px; width: 265px;" />
+            <ui:Button text="Exit" display-tooltip-when-elided="true" name="Exit" class="buttons" style="margin-top: 30px; margin-bottom: 30px; width: 265px;" />
+        </ui:GroupBox>
+        <ui:VisualElement style="width: 100%; height: 30%; align-items: center; justify-content: flex-end; -unity-text-align: upper-left; position: relative; flex-direction: column; margin-bottom: 1%;">
+            <ui:VisualElement style="width: 220px; height: 90px; background-image: url(&apos;project://database/Assets/UI/Logo.png?fileID=2800000&amp;guid=5e030b8058f87704587a334be42dcb16&amp;type=3#Logo&apos;); -unity-background-image-tint-color: rgba(255, 255, 255, 0.5); margin-bottom: 10px;" />
+            <ui:Label text="Do not consider it as a finished product. &lt;br&gt;Interpret it as a proof of concept or an alpha experience." display-tooltip-when-elided="true" name="Disclaimer" class="Labels" style="justify-content: center; margin-bottom: 0; margin-top: 0; font-size: 16px; width: 100%; height: auto; color: rgba(255, 255, 255, 0.5); padding-bottom: 0;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

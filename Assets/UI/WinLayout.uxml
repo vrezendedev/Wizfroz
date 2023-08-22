@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Buttons.uss?fileID=7433441132597879392&amp;guid=3f4d1a524efe1134ba178347166a91a8&amp;type=3#Buttons" />
+    <ui:VisualElement style="height: 100%; align-items: center; justify-content: flex-end; width: 100%; margin-bottom: 50px;">
+        <ui:Label text="You&apos;ve arrived your destiny!" display-tooltip-when-elided="true" name="WinMessage" style="align-items: center; font-size: 42px; -unity-font-style: normal; color: rgb(255, 255, 255); justify-content: center; -unity-text-align: upper-center; height: auto; opacity: 1; width: 100%; -unity-font: url(&apos;project://database/Assets/UI/overmch.ttf?fileID=12800000&amp;guid=d1727816b829c75448802a056e9832b7&amp;type=3#overmch&apos;); -unity-font-definition: url(&apos;project://database/Assets/UI/OverFont.asset?fileID=11400000&amp;guid=ddcf7599e6672e04bae53ba476f04ac3&amp;type=2#OverFont&apos;);" />
+        <ui:GroupBox name="ButtonsContainer" style="flex-direction: row; justify-content: center; height: auto; width: 100%;">
+            <ui:Button text="Home" display-tooltip-when-elided="true" name="HomeBtn" class="buttons" />
+            <ui:Button text="Restart" display-tooltip-when-elided="true" name="RepeatBtn" class="buttons" />
+            <ui:Button text="Next" display-tooltip-when-elided="true" name="NextBtn" class="button buttons" />
+        </ui:GroupBox>
+    </ui:VisualElement>
+</ui:UXML>

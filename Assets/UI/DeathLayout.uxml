@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Buttons.uss?fileID=7433441132597879392&amp;guid=3f4d1a524efe1134ba178347166a91a8&amp;type=3#Buttons" />
+    <ui:VisualElement style="flex-grow: 0; flex-basis: auto; flex-direction: column; width: 100%; height: 100%; justify-content: flex-end; align-items: center; margin-bottom: 60px;">
+        <ui:Label text="The space is a harsh place..." display-tooltip-when-elided="true" name="DefeatMessage" style="align-items: center; font-size: 42px; -unity-font-style: normal; color: rgb(255, 255, 255); justify-content: center; width: 100%; flex-wrap: nowrap; -unity-text-align: upper-center; -unity-font: url(&apos;project://database/Assets/UI/overmch.ttf?fileID=12800000&amp;guid=d1727816b829c75448802a056e9832b7&amp;type=3#overmch&apos;); -unity-font-definition: url(&apos;project://database/Assets/UI/OverFont.asset?fileID=11400000&amp;guid=ddcf7599e6672e04bae53ba476f04ac3&amp;type=2#OverFont&apos;);" />
+        <ui:VisualElement name="ButtonsContainer" class="button" style="flex-direction: row; margin-top: 10px; flex-wrap: nowrap; align-items: center; justify-content: center; width: auto;">
+            <ui:Button text="Try Again" display-tooltip-when-elided="true" name="RestartBtn" class="buttons" />
+            <ui:Button text="Home" display-tooltip-when-elided="true" name="HomeBtn" class="buttons" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
